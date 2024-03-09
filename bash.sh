@@ -32,6 +32,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
             # 提取笔记数
             notecount="$line"
             final_content+="  notecount:: $notecount\n"
+            final_content+="  tags:: 📚读书笔记⭐️"
             continue
         fi
     else
